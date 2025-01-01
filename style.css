@@ -1,0 +1,46 @@
+.container{
+    border: 2px solid red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    padding: 20px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px gray;
+    background-color: #e3f9ff;
+}
+.calculator h3{
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 35px;
+}
+.btn{
+    width: 110px;
+    height: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 5px;
+}
+.symbol{
+    color: red;
+}
+.operator{
+    color: blue;
+}
+.outputbar_screen input{
+    background-color: transparent;
+    width: 487px;
+    height: 60px;
+    border: 2px solid green;
+    color: green;
+    font-weight: 900;
+    font-size: 30px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
